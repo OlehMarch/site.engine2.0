@@ -1,0 +1,183 @@
+body {
+	background-image:url(../images/headerAndFooterPattern3.png);
+	margin: 0;
+	padding: 0;
+	font:14px Verdana,sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+.right {
+	text-align: right;
+}
+
+.hr {
+	border: none;
+    color: #d1d19b;
+    background-color: #d1d19b;
+    height: 2px;
+}
+
+.hrCenter {
+	border: none;
+    color: #39f;
+    background-color: #39f;
+    height: 2px;
+}
+
+#header, #footer {
+	background-image:url(../images/pattern2.png);
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	background-color: #ffa;
+}
+
+#header p {
+	font-size: 35px;
+	font-weight:bold;
+	font-style: italic;
+	text-align: center;
+	color: #39f;
+	text-shadow: 1px 1px 2px black, 1px 1px 0em black;
+	margin: 0;
+	padding: 20px 0px;
+}
+
+.imgInHeader {
+	width: 200px;
+	height: 30px;
+	margin: 0px auto;
+	padding-top: 10px;
+	visibility: hidden;
+}
+
+#left, #right {
+	min-height: 300px;
+	max-height: 3000px;
+	width: 235px;
+	padding: 0 10px;
+}
+
+#left {
+	border-right: 2px solid #d1d19b;
+	float: left;
+	height: 500px;
+}
+
+#right {
+	border-left: 2px solid #d1d19b;
+	float: right;
+	height: 500px;
+}
+
+#center {
+	border-left: 2px solid #d1d19b;
+	border-right: 2px solid #d1d19b;
+	margin: 0 255px;
+	padding: 0 10px;
+}
+
+#center h1 {
+	margin: 0;
+	text-align: center;
+	color: #7af;
+	text-shadow: 1px 1px 2px black, 1px 1px 0em black;
+}
+
+#center img {
+	border: 1px solid #39f;
+	outline: 1px solid #7af;
+}
+
+#left h2, #right h2, #right h3 {
+	color: #7af;
+	text-shadow: 1px 1px 2px black, 1px 1px 0em black;
+}
+
+.label {
+	color: #7af;
+}
+
+hr {
+	margin: 0;
+}
+
+.banner {
+	border: 1px solid #39f;
+	outline: 1px solid #7af;
+	margin: 10px auto 0;
+	width: 200px;
+	min-height:16px;
+}
+
+#footer {
+	margin: 0;
+	padding: 20px 0;
+	background-color: #ffa;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	color: #7af;
+	text-shadow: 1px 1px 2px black, 1px 1px 0em black;
+	text-align: center;
+}
+
+#pagination p {
+	font-size: 110%;
+	margin: 0;
+	text-align: center;
+}
+
+#pagination a {
+	display: inline-block;
+	padding: 3px;
+}
+
+#reg table {
+	margin: 0 auto;
+}
+
+.message {
+	color: #f00;
+	text-align: center;
+}
+
+#message p {
+	text-align: center;
+}
+
+.imgInArticle {
+	width: 500px;
+	height: 200px;
+	margin: 10px auto;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+li {
+	list-style:inside url(../images/arrow.png);
+}
+
+a:link, a:visited {
+	border-bottom:0px solid #cc0000;
+	color:#7af;
+}
+
+a:hover {
+	border-bottom:0px solid #cc0000;
+	color:#000;
+}
+
+a:active {
+	border-bottom:0px solid #cc0000;
+	color:#0c0;
+}
